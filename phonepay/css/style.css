@@ -1,0 +1,338 @@
+*{
+    margin: 0px; 
+}
+#body{
+  position: relative;
+  width: 40%;
+  height: 100%;
+  left: 30%;
+  /* display: flex; */
+  /* justify-content: center; */
+ 
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+#carouselExampleIndicators{
+  position: relative;
+  z-index: 4;
+  /* top: 300px; */
+
+}
+#div-1{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+#div-1>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-2 i{
+    width: 30px;
+    height: 30px;
+}
+#div-2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-weight: bold;
+}
+#marq-tag{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.carousel-item img{
+  width: 100%;
+  height: 250px;
+}
+marquee{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+marquee>img{
+    /* width: 50%; */
+    margin-top: 4px;
+    height: 9%;
+    border-radius: 15px;
+}
+section{
+  background-color: rgb(227, 220, 220);
+}
+.clr{
+  width: 100%;
+  height: 10px;
+}
+#pay-types{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    /* height: 120px; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1f 1fr 1fr 1fr;
+    gap:5px;
+}
+#pay-types p{
+  font-size: 0.8em;
+}
+.pay-ccontents{
+    /* border: 2px solid red; */
+    background-color: white;
+  
+}
+#pay-content-1{
+    grid-column-start:1 ;
+    grid-column-end:5;
+}
+.pay-cont-1{
+    background-color: purple;
+    padding:2px;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+.pay-ccontents>i{
+    font-size: 2.2em;
+    color: white;
+    margin: 12px;
+}
+#pay-content-10{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-start: 5;
+}
+#pay-content-11{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-start: 5;
+  }
+  #paytypes-1{
+    display: flex;
+justify-content: space-between;
+    margin: 10px;
+    padding:10px;
+    border-radius: 18px;
+    width: 96%;
+    height: 78px;
+    font-size: 0.8em;
+  }
+
+  .pay-items-1{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+  .pay-items-1>i{
+    color: purple;
+    margin: 8px;
+    font-size: 2em;
+  }
+  #paytypes-2{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    /* height: 120px; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1f 1fr 1fr ;
+    gap:8px;
+  }
+  .pay-cont p{
+    /* border: 2px solid red;
+    background-color: aqua; */
+    font-size: 0.8em;
+  }
+  .pay-cont2>i{
+    font-size: 2em;
+  }
+  #pay-reward-1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /* writing-mode: vertical-lr; */
+  }
+  .pay-cont-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pay-cont-2>i{
+    color: purple;
+    margin: 8px;
+    font-size: 1.4em;
+  }
+  #paytypes-3{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    /* height: 120px; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1f 1fr 1fr ;
+    gap:8px;
+  }
+  .pay-items-2{
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #pay-loan-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+   
+  }
+ 
+  .pay-cont-3{
+    color: purple;
+  }
+  #pay-loan-2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  #pay-loan-2>button{
+    border: 0px;
+    font-size: 12px;
+    color:purple;
+    background-color: rgb(180, 173, 203);
+  }
+  /* #pay-loan-2>img{
+    width: 60%;
+    height: 60%;
+    } */
+     #paytypes-4{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      margin: 10px;
+      padding: 8px;
+      border-radius: 20px;
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      /* align-items: center; */
+      width: 96%;
+      gap:8px;
+      /* height: 120px; */
+      background-color: white;
+     }
+     .pay-tems-3{
+      /* border:1px solid black; */
+      /* background-color: aqua; */
+    
+     }
+     .img{
+      display: flex;
+      justify-content: center;
+     }
+     #pay-sponser-1{
+         grid-column-start: 1;
+         grid-column-end: 5;
+         grid-row-start: 1;
+         grid-row-end: 2;
+     }
+     #paytypes-3 p{
+ font-size: 0.8em;
+     }
+     .pay-tems-3 img{
+      width: 50px;
+      height: 45px;
+      border-radius: 8px;
+    
+       }
+.pay-tems-3 p{
+font-size: 0.8em;
+       }
+    #head-1{
+      grid-column-start: 1;
+    grid-column-end: 3;
+    }
+    .pay-items-2>i{
+      font-size: 2em;
+    }
+    #paytypes-5{
+      position: sticky;
+      bottom: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+      /* margin: 10px; */
+      padding: 15px;
+      /* border-radius: 20px; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      /* align-items: center; */
+      width: 100%;
+      z-index: 12;
+      gap:8px;
+      /* height: 120px; */
+      background-color: white;
+    }
+    .pay-items-5{
+      /* position: relative; */
+      /* border: 1px solid red; */
+      /* background-color: antiquewhite; */
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      color: purple;
+     
+    }
+    .pay-items-5 i{
+   
+      border: 1px solid purple;
+      border-radius: 50%;
+      padding: 10px;
+    }

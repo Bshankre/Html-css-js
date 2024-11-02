@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+body{
+    /* background-color: rgb(225, 68, 68); */
+}
+
+#cards-all-3{
+    width: 100%;
+    height: 350px;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards-1{
+    margin: 30px ;
+    flex-shrink: 10;
+    align-self: stretch;
+}
+.col-md-4 i{
+    width: 100%;
+    background-color: #b4323f;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    flex-wrap: wrap;
+} 
+.featurette{
+    width: 100%;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-md-7{
+    width: 50%;
+}
+
+.heading{
+    width: 100%;
+    height: 90px;
+    background-color: #c5b1b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marketing{
+    padding: 40px;
+}
