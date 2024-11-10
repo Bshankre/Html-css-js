@@ -1,0 +1,14 @@
+{
+    "params" :
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/courses",
+        "prod_uri":"mysql://root:@localhost/courses",
+        "courses_avb" : "Courses Available",
+        "gmail-user" :" bhagyashankre20",
+        "gmail-password" : "" 
+    },
+    "passwords":{
+
+    }  
+}

@@ -1,0 +1,236 @@
+/* setting CSS */
+*{
+    margin:0;
+    padding:0;
+    font: 20px ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: rgb(220, 220, 255);
+}
+header{
+    display:flex;
+   position: relative;
+}
+
+header img{
+    height: 80px;
+    width:100px;
+    margin:10px;
+}
+.navbar{
+  
+    /* margin: 20px 30px;
+    border-radius: 30px;
+    display: block;  
+    background-color: white; */
+   
+}
+.navbar ul{
+    /* position: -webkit-sticky; */
+    list-style: none;
+    margin: 40px 20px;
+    display: flex;
+    overflow: hidden;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin:10px 20px;
+    padding:10px 20px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    
+}
+ul li a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+}
+/* about image of background */
+header::before{
+    background: url('https://images.freecreatives.com/wp-content/uploads/2016/04/Website-Backgrounds-For-Desktop.jpg') no-repeat center ;
+    background-color: black;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top:0;
+    right: 0;
+    left:0;
+    position: absolute;
+    z-index: -1;
+    opacity:1;
+    /* position: relative; */
+}
+header{
+    position: relative;
+}
+section::before{
+    background: url('https://images.freecreatives.com/wp-content/uploads/2016/04/Website-Backgrounds-For-Desktop.jpg') no-repeat center ;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top:0;
+    right:0;
+    left:0;
+    position: absolute;
+    z-index: -2;
+    opacity: 1;
+}
+/* content of body where welcome content id displyed */
+section{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    color:white;
+ /* position: relative;  */
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 55%;
+    /* border: 10px solid black; */
+}
+/* .container{
+    flex-direction: column;
+     display: flex;
+   justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+     text-align: center;*/
+    /* border: 2px solid black; */
+    
+
+/* utility classes  */
+.h-primary{
+    font-size: 2.2rem;
+    padding: 12px;
+    margin:10px;
+    text-shadow: 1px 2px white;
+}
+.h-secondary{
+    font-size: 1rem;
+    padding:10px;
+    margin:10px;
+    text-shadow: o.5px  black;
+}
+.btn{
+    padding:5px 10px;
+    margin:25px;
+    background-color: rgb(132, 130, 130);
+    border-radius: 5px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+#services{
+    margin:5px;
+    display: flex;
+    
+}
+/* services */
+.box{
+    border: 3px solid blue;
+    border-radius: 20px;
+    margin:5px;
+    padding: 8px;
+    background-color:rgb(247, 239, 230);
+}
+.box img{
+    height: 100px;
+    display: block;
+    margin:auto;
+}
+
+#clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.client-item img{
+    height:150px;
+    width:150px;
+    margin:25px;
+}
+client-section::before{
+    background: url('https://th.bing.com/th/id/OIP.Yx9dmgKq_ZGo5DAyULD9KAAAAA?pid=ImgDet&rs=1') no-repeat center center/cover ;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    z-index: -1;
+    opacity: 0.8;
+}
+client-section{
+    position: relative;
+    width: 100%;
+}
+contact-client::before{
+    background: url('https://th.bing.com/th/id/R.641ccc29ad6f7a75e5e4edc7bfe6f0d2?rik=XC01lAQGURaMpw&riu=http%3a%2f%2fwww.jfpbenefitmanagement.com%2fimages%2fcontact2.jpg&ehk=f7XxRzcUL5zfEPB2v4DMpPQwQDyh3lu3ggdkR127MEk%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover ;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    z-index: -1;
+    opacity: 0.8;
+}
+contact-client{
+    /* margin:10px 0px; */
+    position: relative;
+    left: 0;
+}
+#contact-box {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 15px;
+}
+#contact-box form{
+    width:40%;
+}
+#contact-box input,
+#contact-box textarea{
+    width:85%;
+    padding:0.5rem;
+    border-radius: 5px;
+    margin:5px;
+}
+header img{
+    border-radius: 50%;
+}
+.center{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 8px 25px;
+}

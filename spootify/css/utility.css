@@ -1,0 +1,43 @@
+.invert{
+    filter: invert(1);
+}
+.m-1{
+    margin:10px;
+}
+.p-1{
+    padding:10px;
+}
+.flex{
+    display: flex;
+}
+.cent{
+    justify-content: center;
+}
+.align-cent{
+    align-items: center;
+}
+.rounded{
+    /* border: 1px solid white; */
+    border-radius: 7px;
+}
+.gray{
+    background-color: #121212;
+    color:white;
+}
+.font-fam{
+    font-family: "Poppins", sans-serif;
+}
+.text-gray{
+    color:gray;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
