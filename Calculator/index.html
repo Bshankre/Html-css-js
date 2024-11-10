@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div class="calculator">
+    <form action="">
+    <div class="content">
+        <input type="text" name="display">
+    </div>
+    <div class="first-line">
+        <input type="button" value="AC" class="oper" onclick="display.value=''">
+        <input type="button" value="DE" class="oper" onclick="display.value=display.value.toString().slice(0,-1)">
+        <input type="button" value="." class="oper"  onclick="display.value+='.'">
+        <input type="button" value="/" class="oper"  onclick="display.value+='/'">
+    </div>
+    <div>
+        <input type="button" value="7" class="oper" onclick="display.value+='7'">
+        <input type="button" value="8" class="oper" onclick="display.value+='8'">
+        <input type="button" value="9" class="oper" onclick="display.value+='9'">
+        <input type="button" value="*" class="oper" onclick="display.value+='*'">
+    </div>
+    <div>
+        <input type="button" value="4" class="oper" onclick="display.value+='4'">
+        <input type="button" value="5" class="oper" onclick="display.value+='5'">
+        <input type="button" value="6" class="oper" onclick="display.value+='6'">
+        <input type="button" value="-" class="oper" onclick="display.value+='-'">
+    </div>
+    <div>
+        <input type="button" value="1" class="oper" onclick="display.value+='1'">
+        <input type="button" value="2" class="oper" onclick="display.value+='2'">
+        <input type="button" value="3" class="oper" onclick="display.value+='3'">
+        <input type="button" value="+" class="oper" onclick="display.value+='+'">
+    </div>
+    <div>
+        <input type="button" value="00" class="oper" onclick="display.value+='00'">
+        <input type="button" value="0" class="oper" onclick="display.value+='0'">
+        <input type="button" value="=" class="operand" onclick="display.value=eval(display.value)">
+       
+    </div>
+</form>
+   </div> 
+</body>
+</html>
